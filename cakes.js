@@ -1,0 +1,24 @@
+let carts = document.querySelectorAll(".add-shopping-cart");
+
+for (let i = 0; i < carts.length; i++) {
+  carts[i].addEventListener("click", () => {
+    cartNumbers();
+  });
+}
+function onLoadCardNumbers() {
+  let productNumbers = localStorage.getItem("cartNumbers");
+  if (productNumbers)
+    document.querySelector(".shopping-counter").textContent = productNumbers;
+}
+function cartNumbers() {
+  let productNumbers = localStorage.getItem("cartNumbers");
+  productNumbers = parseInt(productNumbers);
+  if (productNumbers) {
+    localStorage.setItem("cartNumbers", productNumbers + 1);
+    document.querySelector(".shopping-counter").textContent =
+      productNumbers + 1;
+  } else {
+    localStorage.setItem("cartNumbers", 1);
+    document.querySelector(".shopping-counter").textContent = 1;
+  }
+}

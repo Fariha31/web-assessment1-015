@@ -1,0 +1,252 @@
+.menu {
+  min-height: 100vh;
+  background: url("./img/bakery_menu.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  display: inline-block;
+  padding: 2rem;
+}
+.banner-title {
+  font-size: 3.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-bottom: 4rem;
+}
+.banner-btn {
+  padding: 1rem 3rem;
+  text-transform: uppercase;
+  margin: 3px;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #f09d51;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.banner-btn:hover {
+  background: transparent;
+  color: #f09d51;
+}
+/**-----cakes----**/
+.cakes {
+  padding: 4rem 0;
+  background: #e1d4d4;
+}
+.cakes_section_title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: "Yellowtail", cursive;
+  font-weight: bold;
+}
+.cakes-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.cake_img_container {
+  position: relative;
+  overflow: hidden;
+}
+.cake_bag_btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: #f09d51;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.cake_bag_btn:hover {
+  color: white;
+}
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+.cake_img_container:hover .cake_bag_btn {
+  transform: translateX(0);
+}
+.cake-img {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: all 0.3s ease;
+}
+.cake_img_container:hover .cake-img {
+  opacity: 0.5;
+}
+.cake h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.cake h4 {
+  margin-top: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: #f09d51;
+  text-align: center;
+}
+/**-----cookies----**/
+.cookies {
+  padding: 4rem 0;
+  background: #e1d4d4;
+}
+.cookies_section_title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-family: "Yellowtail", cursive;
+  font-weight: bold;
+}
+.cookies-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.cookie_img_container {
+  position: relative;
+  overflow: hidden;
+}
+.cookie_bag_btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: #f09d51;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.cookie_bag_btn:hover {
+  color: white;
+}
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+.cookie_img_container:hover .cookie_bag_btn {
+  transform: translateX(0);
+}
+.cookie-img {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: all 0.3s ease;
+}
+.cookie_img_container:hover .cookie-img {
+  opacity: 0.5;
+}
+.cookie h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.cookie h4 {
+  margin-top: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: #f09d51;
+  text-align: center;
+}
+/**-----.sandwiches----**/
+.sandwiches {
+  padding: 4rem 0;
+  background: #e1d4d4;
+  font-family: "Yellowtail", cursive;
+  font-weight: bold;
+}
+.sandwiches_section_title h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+.sandwiches-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  grid-column-gap: 1.5rem;
+  grid-row-gap: 2rem;
+}
+.sandwich_img_container {
+  position: relative;
+  overflow: hidden;
+}
+.sandwich_bag_btn {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  background: #f09d51;
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  transform: translateX(101%);
+  cursor: pointer;
+}
+.sandwich_bag_btn:hover {
+  color: white;
+}
+.fa-shopping-cart {
+  margin-right: 0.5rem;
+}
+.sandwich_img_container:hover .sandwich_bag_btn {
+  transform: translateX(0);
+}
+.sandwich-img {
+  display: block;
+  width: 100%;
+  min-height: 12rem;
+  transition: all 0.3s ease;
+}
+.sandwich_img_container:hover .sandwich-img {
+  opacity: 0.5;
+}
+.sandwich h3 {
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+.sandwich h4 {
+  margin-top: 0.7rem;
+  letter-spacing: 0.1rem;
+  color: #f09d51;
+  text-align: center;
+}
